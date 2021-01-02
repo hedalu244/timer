@@ -1,6 +1,7 @@
 body {
     background-color: #ececec;
     color: #777;
+    font-family: sans-serif;
 }
 
 .wrapper {
@@ -149,6 +150,7 @@ body {
 
 .input_wrapper>input {
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
     width: 50%;
     font-size: 50px;
     text-align: center;
