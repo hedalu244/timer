@@ -40,7 +40,7 @@ function start() {
     startTime = performance.now() - passed;
     paused = false;
     assure(document.getElementById("circle"), HTMLDivElement).style.backgroundImage =
-     "linear-gradient(147deg, #e5dd00 0%, #e52525 74%)";
+     "linear-gradient(327deg, #e5dd00 0%, #e52525 74%)";
     update();
 
     button.classList.remove("paused");
@@ -52,7 +52,7 @@ function pause() {
     alarmStopped = true;
 
     assure(document.getElementById("circle"), HTMLDivElement).style.backgroundImage =
-     "linear-gradient(147deg, #aaa 0%, #777 74%)";
+     "linear-gradient(327deg, #aaa 0%, #777 74%)";
 
      button.classList.remove("playing");
      button.classList.add("paused");
