@@ -116,17 +116,12 @@ body {
     height: 60%;
     border-radius: 50%;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    margin: auto;
-    width: 20%;
-    height: 20%;
 }
 
 .icon::before {
