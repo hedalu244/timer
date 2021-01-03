@@ -143,7 +143,7 @@ body {
     border-right: solid 40px transparent;
     border-left: solid 40px transparent;
     border-bottom: solid 60px #e5531c;
-    transform: rotate(90deg) translateX(20px);
+    transform: translateX(20px) rotate(90deg);
 }
 
 .playing>.icon::before {
