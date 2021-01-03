@@ -25,9 +25,8 @@ function init() {
 
     minDOM.disabled = true;    
     secDOM.disabled = true;
-    minDOM.style.boxShadow = "none";
-    secDOM.style.boxShadow = "none";
-
+    assure(document.getElementById("input"), HTMLDivElement).style.boxShadow = "none";
+    
     setTime = 60000 * (+minDOM.value) + 1000 * (+secDOM.value);
     passed = 0;
     alarmStopped = false;
