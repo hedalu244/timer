@@ -10,9 +10,6 @@ body {
 }
 
 .wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     width: 100%;
     max-width: 500px;
     height: 100%;
@@ -35,7 +32,7 @@ body {
 .time_wrapper {
     display: flex;
     margin: 0 0 50px 0;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .time {
@@ -168,10 +165,9 @@ body {
 
 .input_wrapper {
     display: flex;
-    margin: 60px 0 0 0;
-    font-size: 50px;
+    margin: 60px auto 0 auto;
+    font-size: 45px;
     width:80%;
-    margin:auto;
 }
 
 .input_wrapper>input {
