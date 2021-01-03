@@ -23,6 +23,7 @@ body {
     position: relative;
     width: 80%;
     height: auto;
+    margin:auto;
 }
 
 .adjust-box:before {
@@ -170,6 +171,7 @@ body {
     margin: 60px 0 0 0;
     font-size: 50px;
     width:80%;
+    margin:auto;
 }
 
 .input_wrapper>input {
