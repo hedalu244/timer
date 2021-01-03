@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-    width: 80%;
+    width: 100%;
     max-width: 500px;
     height: 100%;
     margin: auto;
@@ -18,7 +18,7 @@ body {
 
 .adjust-box {
     position: relative;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -166,6 +166,7 @@ body {
     display: flex;
     margin: 60px 0 0 0;
     font-size: 50px;
+    width:80%
 }
 
 .input_wrapper>input {
