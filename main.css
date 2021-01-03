@@ -1,5 +1,5 @@
 body {
-    background-color: #ececec;
+    background-color: #e1e4eb;
     color: #777;
     font-family: 'Roboto Mono', sans-serif;
     min-height: 100vh;
@@ -59,7 +59,7 @@ body {
     background-color: #aaa;
     background-image: linear-gradient(327deg, #aaa 0%, #777 74%);
     overflow: hidden;
-    box-shadow: 0 0 10px 10px #ececec, 32px 32px 48px rgba(0, 0, 0, 0.15), -32px -32px 48px 0 rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px 10px #e1e4eb, 32px 32px 48px rgba(0, 0, 0, 0.15), -32px -32px 48px 0 rgba(255, 255, 255, 1);
 }
 
 .circle_color {
@@ -69,7 +69,7 @@ body {
     left: 0;
     right: 0;
     background-color: #e5dd00;
-    background-image: linear-gradient(327deg, #e5dd00 0%, #e52525 74%);
+    background-image: linear-gradient(327deg, #e1dd00 0%, #e12525 74%);
     opacity: 0;
     transition: 0.1s;
 }
@@ -91,7 +91,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #ececec;
+    background: #e1e4eb;
     background-image: linear-gradient(to right, transparent 50%, black 0);
     mix-blend-mode: lighten;
 }
@@ -112,7 +112,7 @@ body {
     bottom: 0;
     top: 0;
     margin: auto;
-    background-color: #ececec;
+    background-color: #e1e4eb;
     border: 2px solid rgba(255, 255, 255, 0.3);
     box-shadow: 8px 8px 12px 0 rgba(129, 26, 0, 0.15), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
     width: 60%;
@@ -179,7 +179,7 @@ body {
     width: 50%;
     font-size: 50px;
     text-align: center;
-    background-color: #ececec;
+    background-color: #e1e4eb;
     outline: none;
     border: 0;
     border-radius: 30px;
