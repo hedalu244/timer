@@ -10,6 +10,9 @@ body {
 }
 
 .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
     max-width: 500px;
     height: 100%;
@@ -166,7 +169,7 @@ body {
     display: flex;
     margin: 60px 0 0 0;
     font-size: 50px;
-    width:80%
+    width:80%;
 }
 
 .input_wrapper>input {
