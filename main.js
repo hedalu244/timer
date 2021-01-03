@@ -35,8 +35,7 @@ function init() {
 function start() {
     startTime = performance.now() - passed;
     paused = false;
-    assure(document.getElementById("circle"), HTMLDivElement).style.backgroundImage =
-        "linear-gradient(327deg, #e5dd00 0%, #e52525 74%)";
+    assure(document.getElementById("circle_color"), HTMLDivElement).style.opacity = "1";
     update();
     button.classList.remove("paused");
     button.classList.add("playing");
@@ -44,8 +43,7 @@ function start() {
 function pause() {
     paused = true;
     alarmStopped = true;
-    assure(document.getElementById("circle"), HTMLDivElement).style.backgroundImage =
-        "linear-gradient(327deg, #aaa 0%, #777 74%)";
+    assure(document.getElementById("circle_color"), HTMLDivElement).style.opacity = "0";
     button.classList.remove("playing");
     button.classList.add("paused");
 }
@@ -55,7 +53,7 @@ function msToString(ms) {
     const sec = _sec - min * 60;
     const strMin = ("" + min).length < 2 ? "0" + min : "" + min;
     const strSec = ("" + sec).length < 2 ? "0" + sec : "" + sec;
-    return (ms < 0 ? "-" : "") + strMin + ":" + strSec;
+    return (ms < 0 ? "-" : "") + strMin + '<span class="colon"></span>' + strSec;
 }
 function update() {
     if (0 < setTime - passed && setTime - (performance.now() - startTime) < 0) {
@@ -65,8 +63,8 @@ function update() {
     ;
     passed = performance.now() - startTime;
     const rest = setTime - passed;
-    assure(document.getElementById("passed"), HTMLDivElement).textContent = msToString(passed);
-    assure(document.getElementById("rest"), HTMLDivElement).textContent = msToString(rest);
+    assure(document.getElementById("passed"), HTMLDivElement).innerHTML = msToString(passed);
+    assure(document.getElementById("rest"), HTMLDivElement).innerHTML = msToString(rest);
     const rate = rest / setTime;
     const mask = assure(document.getElementById("mask"), HTMLDivElement);
     if (0 < rate) {

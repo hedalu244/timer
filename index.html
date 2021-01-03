@@ -7,17 +7,20 @@
     <title>Timer</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <script src='main.js'></script>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="time_wrapper">
-            <div class="time passed" id="passed">00:00</div>
-            <div class="time rest" id="rest">00:00</div>
+            <div class="time passed" id="passed">00<span class="colon"></span>00</div>
+            <div class="time rest" id="rest">00<span class="colon"></span>00</div>
         </div>
         <div class="adjust-box">
-            <div class="circle" id="circle">
+            <div class="circle">
+                <div class="circle_color" id="circle_color"></div>
                 <div class="pie">
                     <div class="mask" id="mask"></div>
                 </div>
@@ -27,11 +30,11 @@
                 <div class="icon"></div>
             </div>
         </div>
-        <div class="input_wrapper">
-            <input type="number" id="min" value="05" min="0">
-            <div>:</div>
+        <div class="input_wrapper" id="input">
+            <input type="number" id="min" value="05" min="0">:
             <input type="number" id="sec" value="00" min="0" max="60">
         </div>
+        <div class="time" id="set"></div>
     </div>
 </body>
 
