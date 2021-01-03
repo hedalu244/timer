@@ -133,6 +133,7 @@ body {
     content: '';
     position: absolute;
     transition: 0.5s;
+    display: block;
 }
 
 .paused>.icon::before {
