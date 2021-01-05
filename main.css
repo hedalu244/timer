@@ -40,9 +40,9 @@ body {
 }
 
 .time {
-    width: 50%;
+    width: auto;
     text-align: center;
-    font-size: 7rem;
+    font-size: 6.5rem;
     white-space: nowrap;
 }
 
