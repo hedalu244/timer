@@ -159,13 +159,13 @@ body {
     bottom: 0;
     top: 0;
     margin: auto;
-    width: 2rem;
-    height: 7rem;
-    border-left: solid 2rem currentColor;
-    border-right: solid 2rem currentColor;
-    border-top: solid 0 transparent;
-    border-bottom: solid 0 transparent;
-    transform: rotate(180deg);
+    width: 7rem;
+    height: 2rem;
+    border-top: solid 2rem currentColor;
+    border-bottom: solid 2rem currentColor;
+    border-left: solid 0 transparent;
+    border-right: solid 0 transparent;
+    transform: rotate(270deg);
 }
 
 .input_wrapper {
