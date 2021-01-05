@@ -139,7 +139,7 @@ body {
 }
 
 .paused>.icon::before {
-    left: 0;
+    left: 2rem;
     right: 0;
     bottom: 0;
     top: 0;
@@ -150,7 +150,6 @@ body {
     border-right: solid 0 transparent;
     border-top: solid 4rem transparent;
     border-bottom: solid 4rem transparent;
-    transform: translateX(1rem);
 }
 
 .playing>.icon::before {
